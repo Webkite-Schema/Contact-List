@@ -1,0 +1,518 @@
+{
+  "facets": [
+    {
+      "name": "First Name",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Last Name",
+      "type": "Text",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Image",
+      "type": "Image",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Address 1",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Address 2",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "City",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "State",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Zip Code",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Country",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Email",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Phone Number",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Website",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Twitter",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "University",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Degree",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Year of Graduation",
+      "type": "DateTime",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Employer",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Department",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Job Title",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    }
+  ],
+  "aliases": {
+    "Hebrew": {
+      "_metadata": {
+        "display_name": "אנשי קשר",
+        "display_language": "עברית",
+        "phrases": {
+          "Sort": "מיון",
+          "Filter": "סינון",
+          "More": "עוד",
+          "Less": "סגור",
+          "Sorry, no results": "מצטערים, אין תוצאות",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "וגם",
+          "or": "או",
+          "Details": "לפרטים"
+        }
+      },
+      "First Name": "שם פרטי",
+      "Last Name": "שם משפחה",
+      "Image": "תמונה",
+      "Address 1": "כתובת 1",
+      "Address 2": "כתובת 2",
+      "City": "עיר",
+      "State": "מדינה",
+      "Zip Code": "מיקוד",
+      "Country": "ארץ",
+      "Email": "מייל",
+      "Phone Number": "מספר טלפון",
+      "Website": "אתר",
+      "Twitter": "טוויטר",
+      "University": "אוניברסיטה",
+      "Degree": "תואר",
+      "Year of Graduation": "שנת סיום לימודים",
+      "Employer": "מעסיק",
+      "Department": "מחלקה",
+      "Job Title": "תיאור תפקיד"
+    },
+    "Hindi": {
+      "_metadata": {
+        "display_name": "संपर्क सूची",
+        "display_language": "हिन्दी",
+        "phrases": {
+          "Sort": "तरह",
+          "Filter": "फिल्टर",
+          "More": "अधिक",
+          "Less": "कम",
+          "Sorry, no results": "क्षमा करें, परिणाम नहीं",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "और",
+          "or": "या",
+          "Details": "विवरण"
+        }
+      },
+      "First Name": "नाम",
+      "Last Name": "परिवार का नाम",
+      "Image": "छवि",
+      "Address 1": "पता 1",
+      "Address 2": "पता 2",
+      "City": "शहर",
+      "State": "प्रदेश",
+      "Zip Code": "पिन कोड",
+      "Country": "देश",
+      "Email": "ईमेल",
+      "Phone Number": "फोन नंबर",
+      "Website": "वेबसाइट",
+      "Twitter": "ट्विटर",
+      "University": "विश्वविद्यालय",
+      "Degree": "डिग्री",
+      "Year of Graduation": "स्नातक के वर्ष",
+      "Employer": "नियोजक",
+      "Department": "विभाग",
+      "Job Title": "कार्य शीर्षक"
+    },
+    "Chinese (Mandarin)": {
+      "_metadata": {
+        "display_name": "通讯录",
+        "display_language": "普通话",
+        "phrases": {
+          "Sort": "排序",
+          "Filter": "筛选",
+          "More": "更多",
+          "Less": "收起",
+          "Sorry, no results": "不好意思，没有结果",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "和",
+          "or": "或",
+          "Details": "细节"
+        }
+      },
+      "First Name": "名",
+      "Last Name": "姓",
+      "Image": "相片",
+      "Address 1": "地址1",
+      "Address 2": "地址2",
+      "City": "城市",
+      "State": "省",
+      "Zip Code": "邮编",
+      "Country": "国家",
+      "Email": "电子邮件",
+      "Phone Number": "电话号码",
+      "Website": "网站",
+      "Twitter": "Twitter （推特）",
+      "University": "大学",
+      "Degree": "学位",
+      "Year of Graduation": "毕业年份",
+      "Employer": "雇主",
+      "Department": "部门",
+      "Job Title": "职位"
+    },
+    "Spanish": {
+      "_metadata": {
+        "display_name": "Directorio de contacto",
+        "display_language": "Español",
+        "phrases": {
+          "Sort": "Ordenar",
+          "Filter": "Filtro",
+          "More": "Más",
+          "Less": "Menos",
+          "Sorry, no results": "Lo sentimos, no hay resultados",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "y",
+          "or": "o",
+          "Details": "Detalles"
+        }
+      },
+      "First Name": "Nombres de pila",
+      "Last Name": "Apellido",
+      "Image": "Imagen",
+      "Address 1": "Dirección 1",
+      "Address 2": "Dirección 2",
+      "City": "Ciudad",
+      "State": "Estado",
+      "Zip Code": "Código Postal",
+      "Country": "País",
+      "Email": "Email",
+      "Phone Number": "Número de teléfono",
+      "Website": "Sitio web",
+      "Twitter": "Twitter",
+      "University": "Universidad",
+      "Degree": "Licenciatura",
+      "Year of Graduation": "Año de licenciatura",
+      "Employer": "Empresario",
+      "Department": "Departamento",
+      "Job Title": "Título del trabajo"
+    },
+    "Portuguese": {
+      "_metadata": {
+        "display_name": "Lista de contato",
+        "display_language": "Português",
+        "phrases": {
+          "Sort": "Tipo",
+          "Filter": "Filtro",
+          "More": "Mais",
+          "Less": "Menos",
+          "Sorry, no results": "Desculpe, não houve resultados",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "e",
+          "or": "ou",
+          "Details": "Detalhes"
+        }
+      },
+      "First Name": "Nomes de baptismo",
+      "Last Name": "Apelido",
+      "Image": "Imagem",
+      "Address 1": "Endereço 1",
+      "Address 2": "Endereço 2",
+      "City": "Cidade",
+      "State": "Estado",
+      "Zip Code": "Cep",
+      "Country": "País",
+      "Email": "Email",
+      "Phone Number": "Número de telefone",
+      "Website": "Website",
+      "Twitter": "Twitter",
+      "University": "Universidade",
+      "Degree": "Diploma",
+      "Year of Graduation": "Ano de diploma",
+      "Employer": "Empregador",
+      "Department": "Departamento",
+      "Job Title": "Título de trabalho"
+    },
+    "German": {
+      "_metadata": {
+        "display_name": "Beziehungsliste",
+        "display_language": "Deutsch",
+        "phrases": {
+          "Sort": "Art",
+          "Filter": "Filter",
+          "More": "Mehr",
+          "Less": "Weniger",
+          "Sorry, no results": "Sorry, keine Ergebnisse",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "Und",
+          "or": "Oder",
+          "Details": "Details"
+        }
+      },
+      "First Name": "Vorname",
+      "Last Name": "Familienname",
+      "Image": "Bild",
+      "Address 1": "Adresse 1",
+      "Address 2": "Adresse 2",
+      "City": "Stadt",
+      "State": "Staat",
+      "Zip Code": "Postleitzahl",
+      "Country": "Land",
+      "Email": "E-mail",
+      "Phone Number": "Telefonnummer",
+      "Website": "Website",
+      "Twitter": "Twitter",
+      "University": "Universität",
+      "Degree": "Universitätsabschluss",
+      "Year of Graduation": "Universitätsabschlussjahr",
+      "Employer": "Arbeitgeber",
+      "Department": "Institut/Seminar",
+      "Job Title": "Berufsbezeichnung"
+    },
+    "French": {
+      "_metadata": {
+        "display_name": "Liste de contacts",
+        "display_language": "Français",
+        "phrases": {
+          "Sort": "Sorte",
+          "Filter": "Filtre",
+          "More": "Plus",
+          "Less": "Moins",
+          "Sorry, no results": "Desole, zero resultats",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "et",
+          "or": "ou",
+          "Details": "Détails"
+        }
+      },
+      "First Name": "Prénom",
+      "Last Name": "Surnom",
+      "Image": "Image",
+      "Address 1": "Adresse 1",
+      "Address 2": "Adresse 2",
+      "City": "Ville",
+      "State": "État ou province",
+      "Zip Code": "Code postal",
+      "Country": "Pays",
+      "Email": "E-mail",
+      "Phone Number": "Numero de téléphone",
+      "Website": "Site web",
+      "Twitter": "Twitter",
+      "University": "Universite",
+      "Degree": "Diplome",
+      "Year of Graduation": "Année d'obtention du diplöme",
+      "Employer": "Employeur",
+      "Department": "Ministère / département",
+      "Job Title": "Titre d'emploi"
+    },
+    "Russian": {
+      "_metadata": {
+        "display_name": "Контакты",
+        "display_language": "Язык",
+        "phrases": {
+          "Sort": "Тип",
+          "Filter": "Фильтр",
+          "More": "Больше",
+          "Less": "Меньше",
+          "Sorry, no results": "Простите, но мы ничего не нашли",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "И",
+          "or": "или",
+          "Details": "Подробнее"
+        }
+      },
+      "First Name": "Имя",
+      "Last Name": "Фамилия",
+      "Image": "Изображение",
+      "Address 1": "Адрес 1",
+      "Address 2": "Адрес 2",
+      "City": "Город",
+      "State": "Область",
+      "Zip Code": "Индекс",
+      "Country": "нация",
+      "Email": "Email",
+      "Phone Number": "Телефон",
+      "Website": "Сайт",
+      "Twitter": "Twitter",
+      "University": "Университет",
+      "Degree": "Образование",
+      "Year of Graduation": "Год окончания",
+      "Employer": "Место работы",
+      "Department": "Департамент",
+      "Job Title": "Должность"
+    },
+    "Dutch": {
+      "_metadata": {
+        "display_name": "Contactpersonen lijst",
+        "display_language": "Nederlands",
+        "phrases": {
+          "Sort": "Sorteren",
+          "Filter": "Filter",
+          "More": "Meer",
+          "Less": "Minder",
+          "Sorry, no results": "Sorry, geen resultaten",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "en",
+          "or": "of",
+          "Details": "Details"
+        }
+      },
+      "First Name": "Voornaam",
+      "Last Name": "Achternaam",
+      "Image": "Afbeelding",
+      "Address 1": "Adres 1",
+      "Address 2": "Adres 2",
+      "City": "Stad",
+      "State": "Provincie",
+      "Zip Code": "Postcode",
+      "Country": "Land",
+      "Email": "Email",
+      "Phone Number": "Telefoonnummer",
+      "Website": "Website",
+      "Twitter": "Twitter",
+      "University": "Universiteit",
+      "Degree": "Graad",
+      "Year of Graduation": "Jaar van afstuderen",
+      "Employer": "Werkgever",
+      "Department": "Afdeling",
+      "Job Title": "Functienaam"
+    },
+    "Turkish": {
+      "_metadata": {
+        "display_name": "İletişim Listesi",
+        "display_language": "Türkçe",
+        "phrases": {
+          "Sort": "Sıralama",
+          "Filter": "Filtre",
+          "More": "Daha çok",
+          "Less": "Daha az",
+          "Sorry, no results": "Sonuç Bulunamadı",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "ve",
+          "or": "veya",
+          "Details": "Detaylar"
+        }
+      },
+      "First Name": "Ad",
+      "Last Name": "Soyad",
+      "Image": "Resim",
+      "Address 1": "Adres 1",
+      "Address 2": "Adres 2",
+      "City": "Şehir",
+      "State": "Eyalet",
+      "Zip Code": "Posta Kodu",
+      "Country": "Ülke",
+      "Email": "e-posta",
+      "Phone Number": "Telefon Numarası",
+      "Website": "Web Sitesi",
+      "Twitter": "Twitter",
+      "University": "Üniversite",
+      "Degree": "Eğitim Seviyesi",
+      "Year of Graduation": "Mezuniyet Yılı",
+      "Employer": "İşveren",
+      "Department": "Departman",
+      "Job Title": "İş Ünvanı"
+    }
+  }
+}
